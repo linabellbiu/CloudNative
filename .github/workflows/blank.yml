@@ -32,7 +32,7 @@ jobs:
           curl https://raw.githubusercontent.com/linabellbiu/github-markdown-toc/master/gh-md-toc -o gh-md-toc
           ls
           chmod a+x ./gh-md-toc
-          ./gh-md-toc ./k8s/安装.md
+          ./gh-md-toc ./k8s/安装.md ./k8s/安装.md
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
