@@ -29,7 +29,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          chmod +x ./gh-md-toc && ./gh-md-toc https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md
+          chmod +x ./gh-md-toc
+          ./gh-md-toc https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md \
+                      https://github.com/linabellbiu/CloudNative/blob/main/dokcer/.md
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
