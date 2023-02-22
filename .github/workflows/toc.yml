@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: toc
 
 # Controls when the workflow will run
 on:
@@ -39,5 +39,5 @@ jobs:
           git config --global user.email "834971685@qq.com"
           git add .
           # Force the build to succeed, even if no files were changed
-          git commit -m 'Update generated files' || true
+          git commit -m 'Update TOC' || true
           git push
