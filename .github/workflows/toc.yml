@@ -31,7 +31,7 @@ jobs:
         run: |
           chmod +x ./gh-md-toc
           ./gh-md-toc https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md \
-                      https://github.com/linabellbiu/CloudNative/blob/main/dokcer/.md  > README.md
+                      https://github.com/linabellbiu/CloudNative/blob/main/.github/workflows/.test.md  > README.md
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
