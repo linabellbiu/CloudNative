@@ -32,7 +32,7 @@ jobs:
         run: |
           curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
           chmod a+x gh-md-toc
-          ./gh-md-toc --insert --no-backup --hide-footer README.md
+          ./gh-md-toc --insert --no-backup --hide-footer %E5%AE%89%E8%A3%85.md
           rm gh-md-toc
       - name: Commit to the repo
         run: |
