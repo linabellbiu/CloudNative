@@ -34,6 +34,11 @@ jobs:
           chmod a+x gh-md-toc
           ./gh-md-toc --insert --no-backup --hide-footer README.md
           rm gh-md-toc
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Auto update markdown TOC
+      - name: Commit to the repo
+        run: |
+          git config --global user.name "linabellbiu"
+          git config --global user.email "834971685@qq.com"
+          git add .
+          # Force the build to succeed, even if no files were changed
+          git commit -m 'Update generated files' || true
+          git push
