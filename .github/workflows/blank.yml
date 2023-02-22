@@ -34,6 +34,9 @@ jobs:
           ls
           rm gh-md-toc
       - name: Commit to the repo
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "linabellbiu"
           git config --global user.email "834971685@qq.com"
