@@ -127,13 +127,13 @@ gh_toc(){
         exit 1
     fi
 
-
+   echo "目录"
+   echo "================="
+   echo ""
     # Show "TOC" string only if working with one document
     if [ "$gh_ttl_docs" = "1" ]; then
 
-        echo "目录"
-        echo "================="
-        echo ""
+     
         gh_src_copy=""
 
     fi
