@@ -129,12 +129,9 @@ gh_toc(){
 
    
     # Show "TOC" string only if working with one document
-    if [ "$gh_ttl_docs" >= "1" ]; then
-        echo "目录"
-        echo "================="
-        echo ""
+    if [ "$gh_ttl_docs" = "1" ]; then
+      
         gh_src_copy=""
-
     fi
 
     if [ "$(gh_is_url "$gh_src")" == "yes" ]; then
@@ -394,6 +391,8 @@ gh_toc_app() {
     fi
 
 
+    echo "目录"
+    echo "================="
     for md in "$@"
     do
         echo ""
