@@ -31,7 +31,7 @@ jobs:
         run: |
           chmod a+x ./gh-md-toc
           ./gh-md-toc ./k8s/安装.md > README.md 
-          curl www.baidu.com
+          wget
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
