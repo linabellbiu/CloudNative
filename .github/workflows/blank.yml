@@ -7,7 +7,6 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
-    paths: ['https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%AE%89%E8%A3%85.md']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,7 +31,7 @@ jobs:
         run: |
           curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
           chmod a+x gh-md-toc
-          ./gh-md-toc --insert --no-backup --hide-footer %E5%AE%89%E8%A3%85.md
+          ls
           rm gh-md-toc
       - name: Commit to the repo
         run: |
