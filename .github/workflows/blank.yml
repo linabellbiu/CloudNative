@@ -30,7 +30,7 @@ jobs:
       - name: Run a one-line script
         run: |
           chmod a+x ./gh-md-toc
-          ./gh-md-toc ./k8s/安装.md > README.md 
+          ./gh-md-toc https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md
           wget
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
