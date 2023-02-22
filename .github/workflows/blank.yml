@@ -30,7 +30,7 @@ jobs:
       - name: Run a one-line script
         run: |
           chmod a+x ./gh-md-toc
-          ./gh-md-toc ./k8s/%E5%AE%89%E8%A3%85.md 
+          ./gh-md-toc ./k8s/安装.md > README.md 
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
