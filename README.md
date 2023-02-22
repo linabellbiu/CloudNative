@@ -1,7 +1,4 @@
 
-目录
-=================
-
 * [Kubernetes安装](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#kubernetes安装)
    * [1、集群原理](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#1集群原理)
       * [1、master-node 架构](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#1master-node-架构)
@@ -23,9 +20,6 @@
          * [5、初始化worker节点（worker执行）](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#5初始化worker节点worker执行)
          * [6、验证集群](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#6验证集群)
          * [7、设置ipvs模式](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#7设置ipvs模式)
-
-目录
-=================
 
 
 
