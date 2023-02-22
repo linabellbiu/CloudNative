@@ -30,8 +30,8 @@ jobs:
       - name: Run a one-line script
         run: |
           curl https://raw.githubusercontent.com/linabellbiu/github-markdown-toc/master/gh-md-toc -o gh-md-toc
-          chmod a+x ./gh-md-toc
           ls
+          chmod a+x ./gh-md-toc
           ./gh-md-toc ./https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%AE%89%E8%A3%85.md > README.md
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
