@@ -1,9 +1,10 @@
 目录
 =================
 
-* [Kubernetes简介](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#kubernetes简介)  
-* [1、部署方式的变迁](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#1部署方式的变迁)  
-      * [2、容器化问题](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#2容器化问题)  
+* [一 、Kubernetes简介](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#一-kubernetes简介)
+   * [1、背景](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#1背景)
+      * [1、部署方式的变迁](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#1部署方式的变迁)
+      * [2、容器化问题](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#2容器化问题)
       * [3、为什么用 Kubernetes](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#3为什么用-kubernetes)
       * [4、市场份额](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#4市场份额)
          * [1、容器化](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#1容器化)
