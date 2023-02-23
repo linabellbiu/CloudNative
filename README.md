@@ -1,13 +1,13 @@
 目录
 =================
 
-* [Kubernetes简介](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#kubernetes简介)  
-* [1、部署方式的变迁](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#1部署方式的变迁)  
-      * [2、容器化问题](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#2容器化问题)  
-      * [3、为什么用 Kubernetes](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#3为什么用-kubernetes)  
-      * [4、市场份额](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#4市场份额)  
-         * [1、容器化](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#1容器化)  
-         * [2、服务编排](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#2服务编排)  
+* [Kubernetes简介](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#kubernetes简介)
+* [1、部署方式的变迁](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#1部署方式的变迁)
+      * [2、容器化问题](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#2容器化问题)
+      * [3、为什么用 Kubernetes](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#3为什么用-kubernetes)
+      * [4、市场份额](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#4市场份额)
+         * [1、容器化](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#1容器化)
+         * [2、服务编排](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#2服务编排)
    * [2、简介](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#2简介)
       * [1、Kubernetes不是什么](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#1kubernetes不是什么)
 * [二、Kubernetes安装](https://github.com/linabellbiu/CloudNative/blob/main/k8s/Kubernetes%E7%AE%80%E4%BB%8B.md#二kubernetes安装)
