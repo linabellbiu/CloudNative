@@ -390,9 +390,6 @@ gh_toc_app() {
         shift
     fi
 
-
-    echo "目录"
-    echo "================="
     for md in "$@"
     do
         echo ""
@@ -403,6 +400,9 @@ gh_toc_app() {
     echo "<!-- Created by https://github.com/ekalinin/github-markdown-toc -->"
 }
 
+
+echo "目录"
+echo "================="
 #
 # Entry point
 #
