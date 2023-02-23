@@ -433,8 +433,7 @@ swapoff -a
 sed -ri 's/.*swap.*/#&/' /etc/fstab 
 
 
-```sh
-printf "##################配置ipvs################## \n"
+##################配置ipvs##################
 cat <<EOF | sudo tee /etc/sysconfig/modules/ipvs.modules
 #!/bin/bash
 modprobe -- ip_vs
@@ -447,20 +446,18 @@ EOF
 chmod 755 /etc/sysconfig/modules/ipvs.modules 
 sh /etc/sysconfig/modules/ipvs.modules
 
-printf "##################安装ipvsadm相关软件################## \n"
+##################安装ipvsadm相关软件##################
 yum install -y ipset ipvsadm
-```
 
 #允许 iptables 检查桥接流量
+
 #https://kubernetes.io/zh/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#%E5%85%81%E8%AE%B8-iptables-%E6%A3%80%E6%9F%A5%E6%A1%A5%E6%8E%A5%E6%B5%81%E9%87%8F
 ## 开启br_netfilter
 sudo modprobe br_netfilter
 ## 确认下
 lsmod | grep br_netfilter
 
-## 修改配置
-
-#####这里用这个，不要用课堂上的配置。。。。。。。。。
+## 修改配置。
 #将桥接的 IPv4 流量传递到 iptables 的链：
 # 修改 /etc/sysctl.conf
 # 如果有配置，则修改
