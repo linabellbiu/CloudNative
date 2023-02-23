@@ -1,11 +1,3 @@
-
-
-<center>
-<h1>
-    Kubernetes 基础入门
-    </h1>    
-</center>
-
 # Kubernetes简介
 
 # 1、部署方式的变迁
