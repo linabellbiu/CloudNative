@@ -14,7 +14,7 @@
    * [1、理解](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#1理解)
    * [2、执行](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#2执行)
       * [1、准备机器](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#1准备机器)
-         * [2、安装前置环境（都执行）](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#2安装前置环境都执行)
+      * [2、安装前置环境（都执行）](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#2安装前置环境都执行)
             * [1、基础环境](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#1基础环境)
          * [2、docker环境](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#2docker环境)
       * [3、安装k8s核心（都执行）](https://github.com/linabellbiu/CloudNative/blob/main/k8s/安装.md#3安装k8s核心都执行)
