@@ -1,13 +1,12 @@
 目录
 =================
 
-* [Kubernetes安装](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#kubernetes安装)
-   * [1、集群原理](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#1集群原理)
-      * [1、master-node 架构](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#1master-node-架构)
-      * [2、工作原理](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#2工作原理)
-      * [3、原理分解](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#3原理分解)
-         * [1、主节点（master）](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#1主节点master)
-         * [2、工作节点（node）](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#2工作节点node)
+* [1、集群原理](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#1集群原理)
+   * [1、master-node 架构](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#1master-node-架构)
+   * [2、工作原理](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#2工作原理)
+   * [3、原理分解](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#3原理分解)
+      * [1、主节点（master）](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#1主节点master)
+      * [2、工作节点（node）](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#2工作节点node)
    * [其他：](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#其他)
    * [2、组件交互原理](https://github.com/linabellbiu/CloudNative/blob/main/k8s/%E5%8E%9F%E7%90%86.md#2组件交互原理)
 
